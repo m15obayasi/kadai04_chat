@@ -1,6 +1,7 @@
 $(".field, .answer, .form, .kekka-form, .kekka-button, .score-board").hide();
 var correctAnswers = 0;
 
+
 // 問題一覧
 const flags = [
     ["./img/Afghanistan.svg", "アフガニスタン"],
