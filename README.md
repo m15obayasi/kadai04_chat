@@ -6,7 +6,7 @@
 - 制限時間は30秒です。スコアをFirebase経由で登録します。
 
 ## ③DEMO
-- https://m15obayasi.github.io/kadai03_memo/
+- https://m15obayasi.github.io/kadai04_chat/
 
 ## ⑤工夫した点・こだわった点
 
