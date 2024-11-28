@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: white;
+        font-weight: bold;
+        background-color: #324A6C;
+}
+
+header{
+    display: flex;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.title {
+    font-size: 36px;
+}
+.seiseki{
+    padding: 20px;
+}
+.timer{
+    padding: 20px;
+}
+
+.field {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.question-area{
+    width: 45%;
+    text-align: center;
+}
+
+.seikai, .huseikai{
+    font-size: 24px;
+    border: solid 2px #324A6C;
+    background-color: #324A6C;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+/* 入力フォーム */
+.form{
+    text-align: center;
+}
+input{
+    width:50%;
+    height: 50px;
+    font-size:24px;
+    text-align: center;
+}
+
+/* 国旗のサイズ */
+img{
+    width: 70%;
+}
+
+/* スタートボタン */
+.start-button{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.start{
+    align-content: center;
+    border: 5px solid #6C7831;
+    color: #6C7831;
+    background-color:white;
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.start:hover{
+    border: 5px solid white;
+    color: white;
+    background-color: #6C7831;
+}
+
+/* 成績入力フォーム */
+.kekka-form {
+    margin-top: 50px;
+    text-align: center;
+}
+.kekka-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.kekka {
+    align-content: center;
+    border: 5px solid #6C7831;
+    color: #6C7831;
+    background-color: white;
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.kekka:hover {
+    border: 5px solid white;
+    color: white;
+    background-color: #6C7831;
+}
+
+.score-board{
+    margin-top: 50px;
+}
